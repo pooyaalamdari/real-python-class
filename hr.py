@@ -44,6 +44,9 @@ class CommisionEmployee(SalaryEmployee):
 salary_employee = SalaryEmployee(1,'john smith', 1500)
 hourly_employee = HourlyEmployee(2,'john Doe', 40, 15)
 commision_employee = CommisionEmployee(3, 'Kevin Bacon', 1000, 250)
+# we can't call parent class (Employee) directly
+# Generic = Employee(4, 'Alex')
+
 
 payroll_system = PayrollSystem() 
 
